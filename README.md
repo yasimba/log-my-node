@@ -9,6 +9,10 @@ $ npm install log-my-node
 ```js
 const lg = require('log-my-node');
 lg.log(1939)
+/*
+Outputs: 
+my/file/location/file.js:lineNumber:columnNumber 1939
+*/
 ```
 
 ## With ExpressJS
@@ -20,10 +24,21 @@ const app = express()
 const port = 3000
 
 app.get('/', (req, res) =>{
-    lg.log("Now I can log with Line Numbers!!!")
-    res.send('Hello World!'))
-} 
+    console.log("Before");
+    lg.log("After!")
+    res.send('Hello World!')
+})
 
-app.listen(port, () => console.log(`Magic happens on:  ${port}!`))
+app.listen(port, () => console.log(`Magic happens on port ${port}!`))
+
+
+/*
+Outputs: 
+
+Before
+
+my/file/location/file.js:lineNumber:columnNumber  After!
+
+*/
 ```
 
