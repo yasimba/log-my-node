@@ -1,6 +1,6 @@
 {
   "name": "log-my-node",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Logger for expressjs and nodejs",
   "main": "./src/index.js",
   "directories": {
