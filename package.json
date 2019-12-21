@@ -1,0 +1,21 @@
+{
+  "name": "log-my-node",
+  "version": "1.0.0",
+  "description": "Logger for expressjs and nodejs",
+  "main": "./src/index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "author": "David Uche",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "mocha-sinon": "^2.1.0",
+    "sinon": "^7.5.0"
+  }
+}
