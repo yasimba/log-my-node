@@ -1,8 +1,6 @@
-## Install
+## Install on npm
 
-```
-$ npm install log-my-node
-```
+[![Install on NPM](https://cdn.freebiesupply.com/logos/thumbs/1x/npm-logo.png)](https://www.npmjs.com/package/log-my-node)
 
 ## Quickstart
 
